@@ -1,0 +1,26 @@
+{
+    "name": "tatemz/gonear",
+    "description": "A custom child theme for the Genesis Framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A. Tate Barber",
+            "email": "tate@barber.so"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tatemz/genesis-layouts"
+        }
+    ],
+    "require": {
+        "tgm/plugin-activation": "dev-master",
+        "tatemz/genesis-layouts": "dev-develop",
+        "afragen/github-updater": "dev-master"
+    },
+    "config": {
+        "vendor-dir": "library/vendor"
+    }
+}
