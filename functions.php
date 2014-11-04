@@ -5,7 +5,7 @@ namespace GoNear;
 class App {
     public static $instance;
 
-    public $version = '0.0.1';
+    public $version = '0.0.2';
     public $db_version;
     public $app_path;
     public $app_url;
